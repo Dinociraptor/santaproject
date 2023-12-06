@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Письмо Дедушке Морозу</title>
+    <link rel="icon" href="img/favicon.svg"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+
+</head>
+<body class ="body">
+    <div>
+        <link href="https://fonts.cdnfonts.com/css/balsamiq-sans-2" rel="stylesheet">
+        <header class="header" >
+            <p class="header_title"> ПИСЬМО ДЕДУШКЕ МОРОЗУ</h1>
+            <img class="logo" src="img/santa_sleigh.png">
+        
+        </header>
+
+        <div>
+            <form class="form" action="box_santa.php" method="POST">
+                Введи свое имя<br>
+                <input type="text" name="username" required><br>
+                Введи имя Мамы или Папы<br>
+                <input type="text" name="parentname" required><br>
+                Введи email Мамы или Папы<br>
+                <input type="email" name="emailparent" required><br>
+                Напиши здесь письмо для Дедушки Мороза<br>
+                <textarea class="textarea" type="text" name="mailsanta" required></textarea><br>
+       
+                <button type="submit" class="button button-form"> ОТПРАВИТЬ ПИСЬМО</button>
+                </form>
+    
+        </div>
+    </div>
+
+    <footer class="footer">
+    
+С любовью для детей от Дедушки Мороза
+    </footer>
+
+    <script src="/js/script.js"></script>
+
+</body>
+</html>

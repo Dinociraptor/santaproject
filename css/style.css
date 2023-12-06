@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', sans-serif;
+  }
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 100%;
+  }
+
+.header {
+  
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #dc9c44;
+    border-radius: 5px;
+    border: 2px solid #4a1e00;
+    box-shadow: 3px 3px 0 #8c522b;
+    padding: 10px;
+}
+.header_title {
+    font-size: 24px;
+    margin: 0;
+}
+.logo{
+  height: 30px;
+  position: absolute;
+  right: 2%;
+}
+
+.button { 
+  height: 42px;
+	border: 2px solid #4a1e00;
+	background-color: #e3d4b3;
+	color: #000000;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+  
+  }
+
+
+.body {
+    height: 90vh;
+    width: 100%;
+    background-image: url(../img/img_santa_bg_f.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+
+.form {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 450px;
+    width: 500px;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #dc9c44;
+    border-radius: 5px;
+    border: 2px solid #4a1e00;
+    box-shadow: 3px 3px 0 #8c522b;
+    padding: 10px; 
+}
+
+input{
+  width: 350px; 
+  height: 50px;
+}
+.textarea {
+  width: 350px; 
+  height: 100px;
+  resize: none;
+}
+.button-form {
+  margin-top: 30px;
+}
+
+.lettersent{
+  display: flex;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 320px;
+  width: 500px;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: #dc9c44;
+  border-radius: 5px;
+  border: 2px solid #4a1e00;
+  box-shadow: 3px 3px 0 #8c522b;
+  padding: 0px; 
+}
+.card {
+  display: inline-block;
+  height: 80%;
+  width: 40%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10%;
+  text-align: left;
+  position:relative;
+  padding-bottom:50px;
+  
+}
+.card-second {
+  text-align: right;
+}
+.h3-mail{ 
+  display: inline;
+}
+p {
+  text-decoration: underline;
+  display: inline;
+  font-size: 14px;
+}
+.card-image {
+  position: absolute;
+  height: 80%;
+  padding-top: 5%;
+  margin-top: 0px;
+  bottom: 0px;
+  
+  
+}
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(74 30 0/ 0.3);
+    color: #ffffff;
+    text-align: center;
+    
+}
